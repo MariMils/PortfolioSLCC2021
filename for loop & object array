@@ -1,0 +1,24 @@
+ <script>
+          var people = [
+                  { name: "Suzie Morely", 
+                  email: "suzie@email.com", 
+                  refMessage: "Marisa is a great coworker!"
+                  },
+
+                  { name: "Spencer Moore", 
+                  email: "spenny@email.com", 
+                  refMessage: "She smells like dirt." 
+                  },
+
+                  { name: "Norma Espolon", 
+                  email: "norma@email.com", 
+                  refMessage: "Marisa has always been a weird kid, don't worry!" 
+                  }
+              ];
+
+              for (var i=0; i < people.length; i++) {
+                document.getElementById("references").innerHTML = "Name: " + people[i].name + "<br>" + people[i].refMessage;
+              };
+
+                  
+      </script>
