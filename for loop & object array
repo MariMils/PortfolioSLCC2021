@@ -1,4 +1,9 @@
- <script>
+<div class="refs">
+      <h2>References and Reviews</h2>
+      <br>
+        <p id="references"></p>
+
+      <script>
           var people = [
                   { name: "Suzie Morely", 
                   email: "suzie@email.com", 
@@ -12,7 +17,7 @@
 
                   { name: "Norma Espolon", 
                   email: "norma@email.com", 
-                  refMessage: "Marisa has always been a weird kid, don't worry!" 
+                  refMessage: "Marisa did good in grade school. I don't know what happened!" 
                   }
               ];
 
@@ -22,3 +27,5 @@
 
                   
       </script>
+
+    </div>
